@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Keval Panwala | Personal Portfolio",
   description:
-    "Keval is a full-stack developer, flutter developer, and devops engineer.",
+    "Keval Panwala is a third year computer science and engineering student at PDEU and have interest in full-stack developer, flutter developer, and devops and cloud engineer.",
 };
 
 export default function RootLayout({
