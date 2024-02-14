@@ -35,28 +35,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title:
+      "Computer Science and Engineering at Pandit Deendayal Energy University",
+    location: "Gujarat, Gandhinagar",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently pursuing my B.Tech in Computer Science and Engineering. I am a Full Stack Developer. I am passionate about building scalable and efficient web applications. I am a quick learner and always ready to learn new technologies and tools.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern Trainee at Brindley Technologies",
+    location: "Mumbai, Maharashtra",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer intern. I made on a project on CRM, CMR (CSS). I used python and Django.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Development Engineer at iNav Labs",
+    location: "Gujarat, Gandhinagar",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm a Software Development Engineer at iNav Labs. I work on React, Next.js, and Tailwind CSS. I also work on the back-end with Node.js, Express, and MongoDB, Also under me I am mentoring interns.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -64,14 +65,14 @@ export const projectsData = [
   {
     title: "CorpComment",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I made this project by my own. In this project users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
   },
   {
     title: "rmtDev",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Job board for remote developer jobs. I only made the front-end for this project. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
