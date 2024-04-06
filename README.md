@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This website is built using Next.js, showcasing my skills, projects, and experiences. It serves as a central hub for potential employers, clients, or collaborators to learn more about me and my work.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page:** Introduces visitors to who I am and provides an overview of my skills and expertise.
+- **Projects:** Showcases my projects, including descriptions, technologies used, and links to live demos or GitHub repositories.
+- **Resume:** Offers access to my resume, providing detailed information about my education, work experience, and skills.
+- **Contact:** Allows visitors to get in touch with me via email or through a contact form.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js:** A React framework for building server-rendered and statically-generated web applications.
+- **React:** A JavaScript library for building user interfaces.
+- **CSS:** Styled components or CSS modules for styling the components.
+- **Markdown:** Used for writing project descriptions and resume content.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository to your local machine:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/your-username/portfolio-website.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    cd portfolio-website
+    ```
 
-## Deploy on Vercel
+3. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Start the development server:
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view the website in your browser.
+
+## Customization
+
+To customize the content and appearance of the website, you can follow these steps:
+
+1. Modify the content of the pages in the `pages` directory.
+2. Customize the styling in the `styles` directory.
+3. Update the project data or add new projects in the `data/projects.json` file.
+4. Replace the resume content in the `data/resume.md` file.
+
+## Deployment
+
+To deploy the website, you can use platforms like Vercel, Netlify, or deploy it manually to your preferred hosting service.
